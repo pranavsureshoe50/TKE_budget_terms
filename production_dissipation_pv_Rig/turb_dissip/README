@@ -1,0 +1,5 @@
+This is for MKE and TKE from the .5p files
+1. Put - x1_grid.in , x2_grid.in , x3_grid.in in the folder
+2. Keep .5p files in ./5pData 
+3. Keep mean field data in ./meanField
+4. Change header. You need St -struhal num to change it

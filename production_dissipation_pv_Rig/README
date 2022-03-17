@@ -1,0 +1,11 @@
+######## coded in fortran ###########
+#  binary file inputs 
+# gfortran / ifort required
+pv : potential vorticity
+Rig : gradient richardson number
+dissipation : turbulent kinetic and scalar dissipation
+production : turbulent prodection
+
+Input : 3d velocity and density data 
+
+

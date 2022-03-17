@@ -1,0 +1,3 @@
+#!/bin/bash
+ifort scalar_dissip.f90 -o chi  -lm  /home/pranav/cases/tecplot10/lib/tecio64.a -lstdc++
+./chi

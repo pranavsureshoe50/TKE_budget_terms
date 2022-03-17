@@ -1,0 +1,3 @@
+#!/bin/bash
+ifort turb_dissip.f90   -o energy5p  -lm  ~/packages/EDDY_LIB/tecplot10/lib/tecio64.a -lstdc++
+./energy5p

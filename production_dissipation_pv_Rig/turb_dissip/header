@@ -1,0 +1,24 @@
+!!*******************************************************************
+!!*        INPUT-LIST FOR POST PROGRAMS   (*.input)                 *
+!!*******************************************************************
+!!* - this file contains all run-time parameters
+!!* - lines starting with '*' are only comments
+!!        
+!!            VERSION 1
+!!*******************************************************************
+!!* ----------------------------- STEP -----------------------------*
+!!*******************************************************************
+!!
+!!*res1     -  initial iteration to start the postprocessing 
+!!*res2     -  final iteration of the postprocessing
+ 
+
+
+
+     INTEGER, PARAMETER ::  res1   = 68200 
+      INTEGER, PARAMETER ::  res2   = 76700
+      INTEGER, PARAMETER ::  pstride = 50
+! Get ST to get dt for vortex shedding. TTOTAL_LIM = multiple of dt      
+     REAL, PARAMETER :: TTOTAL_LIM = 120000.0
+
+

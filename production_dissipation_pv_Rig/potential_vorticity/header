@@ -1,0 +1,18 @@
+!
+!--------Input parameters---Pranav---------------------------------------------
+  
+  integer ( kind = 4 ), parameter :: nx = 402
+  integer ( kind = 4 ), parameter :: ny = 1026
+  integer ( kind = 4 ), parameter :: nz = 1538
+  CHARACTER(LEN=12), PARAMETER ::  time_res1 = '00075438.res'
+  
+  integer ( kind = 4 ), parameter :: nx_start = 1 
+  integer ( kind = 4 ), parameter :: nx_end = 250 
+
+  integer ( kind = 4 ), parameter :: ny_start = 100 
+  integer ( kind = 4 ), parameter :: ny_end = 926 
+          
+  integer ( kind = 4 ), parameter :: nz_start = 200 
+  integer ( kind = 4 ), parameter :: nz_end =   1200
+
+  real ( kind = 4 ), parameter :: ru1 = 0.001667 
